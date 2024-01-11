@@ -1,13 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="keywords" content="Window cleaning, Windows, Service." />
-    <meta name="description" content="" />
-    <title>The Henderson Window Riders</title>
-    <link rel="icon" href="bubbles (2).png" />
-    <style>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="keywords" content="Window cleaning, Windows, Service." />
+  <meta name="description" content="" />
+  <title>The Henderson Window Riders</title>
+  <link rel="icon" href="bubbles (2).png" />
+  <style>
+   .table-container {
+  width: 90%;
+  margin: 20px auto 60px auto; /* Adjust the values as needed (top, right, bottom, left) */
+  overflow-x: auto;
+}
+
+.table-container {
+  display: flex;
+  width: 100%;
+}
+
+    th, td {
+      padding: 4px;
+      text-align: center;
+    }
+
+    th:first-child, td:first-child {
+      width: 8%;
+      max-width: 90px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    th:nth-child(2), td:nth-child(2) {
+      width: 15%;
+    }
+
+    th:last-child, td:last-child {
+      width: 8%;
+    }
+      
       /* Styles for Images */
       .team-images {
         display: flex;
@@ -28,11 +60,7 @@
 
         gap: 35;
       }
-      .QR {
-        width: 100px;
-        height: auto;
-        border-radius: 10px;
-      }
+    
       /* Styles for Text */
       h4 {
         display: inline;
@@ -123,7 +151,7 @@
       /* Main styles */
       body {
         margin-bottom: 13.5rem;
-        color: #00ffff;
+        color: #c20a41;
         font: 400 16px/1.5 exo, ubuntu, "segoe ui", helvetica, arial, sans-serif;
         text-align: center;
         /* img size is 50x50 */
@@ -259,22 +287,77 @@
       </div>
       <div>
         <p>
-          Welcome to the Henderson Window Washers, a group of teenagers reshaping the path to success with a serious commitment to entrepreneurial excellence. We're not just teenagers; we're a team of dedicated teenagers trying to make it in a world of competition.
-        </p>
-        <p>No frills, just a serious commitment to excellence. Our focus isn't solely on soapy water and suds; it's a dedication to turning a simple service into a symbol of professionalism and success. At The Henderson Window Washers, we take pride in the meticulous care we provide for your vehicle.</p>
-        </p>
-        <p> From washing cars to ensuring the wheels shine, we go the extra mile to make your vehicle look its absolute best. We're demonstrating the power of dedication and hard work. The Henderson Window Washers care about being professional, committed to providing a service that reflects our pursuit of excellence. 
-
+          Welcome to The Henderson Car Washers, where a group of dedicated teenagers is reshaping the path to success with an unwavering commitment to entrepreneurial excellence. We're not just a team; we're a league of passionate individuals determined to thrive in a competitive industry.
         </p>
         <p>
-          Help us by booking to get your car cleaned, and every washed window signifies a step towards a successful and promising future. Immerse yourself in a driving experience like never before. By choosing The Henderson Window Washers, you're not just securing a pristine vehicle; you're fueling our passion and driving our progress as we strive to hit the accelerator on our goals.
+          No frills, just a serious commitment to excellence. Our focus goes beyond soapy water and suds; it's a pledge to transform a simple service into a symbol of professionalism and success. At The Henderson Car Washers, we take pride in the meticulous care we provide for your vehicle.
         </p>
         <p>
-          Count on The Henderson Window Washers to bring a new standard of brilliance and clarity to your cherished vehicle. Let us handle your car cleaning needs while you relax and cruise in your squeaky clean and shining car!
+          Help us progress by booking our services, and every meticulously detailed vehicle signifies a step towards a successful and promising future. Immerse yourself in a driving experience like never before. By choosing The Henderson Car Washers, you're not just securing a pristine vehicle; you're fueling our passion and accelerating our journey towards our goals.
         </p>
-        <p>
-          Ready to give your car the treatment it deserves? Book an appointment!
-        </p>
+        <div class="table-container">
+          <table border="1" style="width:90%; margin: 20px auto;"> <!-- Updated inline style -->
+          <tr>
+            <th>Service</th>
+            <th>Description</th>
+            <th>Price</th>
+          </tr>
+          <tr>
+            <td>Fast Wash</td>
+            <td>
+              Soap the Car<br>
+              Hand scrub To remove dirt<br>
+              Wash off soap<br>
+              Dry with premium microfiber rags
+            </td>
+            <td>$65</td>
+          </tr>
+          <tr>
+            <td>Express Wash</td>
+            <td>
+              Tire wash<br>
+              Soap the car<br>
+              Hand scrub To remove dirt<br>
+              De-iron the paint<br>
+              Rinse and lastly<br>
+              Clay bar the car
+            </td>
+            <td>$85</td>
+          </tr>
+          <tr>
+            <td>Car Detailing</td>
+            <td>
+              Clean dashboard<br>
+              Clean interior <br>
+              Car doors<br>
+              Clean seats<br>
+              Remove pet hair<br>
+              Vacuum floorboards
+            </td>
+            <td>$95</td>
+          </tr>
+          <tr>
+            <td>Boss Special</td>
+            <td>
+              Clean dashboard<br>
+              Clean interior <br>
+              Car doors<br>
+              Clean car windows and mirrors<br>
+              Clean seats<br>
+              Remove pet hair<br>
+              Vacuum floorboards<br>
+              Tire Wash<br>
+              Soap the car<br>
+              Hand scrub to remove dirt<br>
+              De-iron the paint<br>
+              Rinse and lastly<br>
+              Clay bar the car
+            </td>
+            <td>$155</td>
+          </tr>
+        </table>
+      </div>
+        <p>Ready to give your car the treatment it deserves? Book an appointment!</p>
         <button type="button" class="button">
           <a href="https://forms.gle/kwsbcfRzVp8uGS7x9" target="_blank">
             <div class="button-top">How To Book?</div>
